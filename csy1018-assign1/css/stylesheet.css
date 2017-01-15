@@ -1,0 +1,195 @@
+/*Daniel Summers 16431847*/
+body{
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+  height: 50%;
+}
+
+head{
+  font-family: 'Arvo', serif;
+  font-size: 26px;
+  color: #c1c1c1;
+}
+
+h1{
+  font-family: 'Special Elite',cursive;
+  float: left: 10px;
+}
+
+/*-NAVBAR-*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+
+}
+ul.nav li:last-child{
+  border-right: none;
+  float: right;
+  padding: 0;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+ul.nav li a:hover:not(.active) {background-color: #a1c1c1;}
+ul.nav li a.active {background-color: #999594;}
+li.right {float: right;}
+
+@media screen and (max-width: 600px){
+  ul.nav li.right,
+  ul.nav li {float: none;}
+}
+/*-end-of-navbar-*/
+
+}
+.profile{
+  margin: 40px 0 15px 0;
+  position: auto;
+  width: 183px;
+}
+
+.description{
+  font-family: 'Arvo', serif;
+  word-wrap: break-word;
+  font-size: 20px;
+  font-style:
+  color: #050505;
+  width: 100%;
+  height: 60%;
+}
+
+
+/*title*/
+.name u{
+  font-family: 'Special Elite', cursive;
+  font-size: 40px;
+  color: #050505;
+}
+.title{
+  font-family: 'Special Elite', cursive;
+  font-size: 30px;
+  color: #050505;
+}
+/*end of*/
+
+/*portfolio links*/
+/*folio1*/
+.portfolio-item1 {
+	width: 182px; padding: 10px; text-align: center;
+	float:auto; margin: 0 100 0 0;
+}
+	.portfolio-item1 p.btn {
+		margin: 0;
+	}
+	.portfolio-item1 p.btn a {
+		display: block; width: 183px; height: 29px; padding: 7px 0 0 0;
+		font-weight: bold; text-align: center; text-transform: uppercase;
+		text-decoration: none;
+	}
+/*end of folio*/
+
+/*contact-Social*/
+.content{
+  font-family: 'Arvo', serif;
+  word-wrap: break-word;
+  font-size: 20px;
+  font-style:
+  color: #050505;
+  width: 100%;
+  height: 60%;
+  list-style: none;
+
+
+}
+
+.social {
+  font-family: 'Arvo', serif;
+  word-wrap: break-word;
+  font-size: 20px;
+  color: #050505;
+  width: 100%;
+  height: 60%;
+}
+	.social ul {
+		list-style: none;
+	}
+		.social ul li {
+			float: left; margin: 0 2px 0px 0;
+		}
+			.social ul li a {
+				display: inline;
+        max-width: 40%;
+        max-height: 40%;
+        padding: 5px 5 5px 5px;
+			}
+
+        .twitter{
+        position: absolute;
+        left: 37%;
+        display:inline;
+        position:
+        size:40px 40px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .facebook{
+      position: absolute;
+      left: 42%;
+      display:inline;
+      position:
+      size:40px 40px;
+      width: 40px;
+      height: 40px;
+      }
+
+    .github{
+      position: absolute;
+      left: 47%;
+    display:inline;
+    position:
+    size:40px 40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .gplus{
+    position: absolute;
+    left: 52%;
+  display:inline;
+  position:
+  size:40px 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.linkedin{
+  position: absolute;
+  left: 57%;
+display:inline;
+position:
+size:40px 40px;
+width: 40px;
+height: 40px;
+}
+
+.MainQual ul li{
+  min-width: 907px;
+  margin: 0;
+  padding: 0;
+ }
+
+ .download{
+   width: 90px;
+   height: 100px;
+ }
